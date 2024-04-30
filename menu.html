@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Столовая</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="menu.css">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <span class="headertext">Рестроран Вега</span>
+	</div>
+	<div class="label">
+        Меню
+	</div>
+    
+	<div class="menu_body">
+        <div class="item">
+            <span class="item_text">Салат зимний</span>
+            <div class="count">
+                <button id="minus">−</button>
+                <input type="number" value="0" id="input"/>
+                <button id="plus">+</button>
+            </div>
+        </div>
+    </div>
+    
+	<div class="empty"></div>
+	<div class="footer">
+        <a href="/menu.html" class="menu"><img src="menu_logo.png" alt="" class="menu_logo"></a>
+		<a href="/" class="home"><img src="home_logo.png" alt="" class="menu_logo"></a>
+		<a href="/profile.html" class="profile"><img src="profile_logo.png" alt="" class="menu_logo"></a>
+	</div>
+    <script type="module" src="menu.js">
+    </script>
+</body>
+
+</html>
